@@ -1,0 +1,104 @@
+@import "./../../../../static/scss/main.scss";
+.paramConfig_content {
+  @include boxStyle(1000px);
+  .paramContent{
+    width: 600px;
+    height: 700px;
+    margin: 30px 30px;
+    .paramOne{
+      width: 600px;
+      height: 50px;
+      margin: 20px 0;
+      label{
+        @include label;
+        &:nth-of-type(2){
+          padding-left: 10px;
+        }
+      }
+      input{
+        @include inputStyle(155px,28px,1px solid #cccccc);
+        @include border-radius;
+        padding-left: 10px;
+      }
+    }
+    .paramTwo{
+      width: 600px;
+      height: 50px;
+      margin: 20px 0;
+      label{
+        @include label;
+        &:nth-of-type(2){
+          padding-left: 10px;
+        }
+      }
+      input{
+        @include inputStyle(155px,28px,1px solid #cccccc);
+        @include border-radius;
+        padding-left: 10px;
+      }
+    }
+    .paramThree{
+      width: 600px;
+      height: 50px;
+      margin: 20px 0;
+      label{
+        @include label;
+        &:nth-of-type(2){
+          padding-left: 10px;
+        }
+      }
+      input{
+        @include inputStyle(155px,28px,1px solid #cccccc);
+        @include border-radius;
+        padding-left: 10px;
+      }
+    }
+    .paramFour{
+      width: 600px;
+      height: 50px;
+      margin: 20px 0;
+      label{
+        @include label;
+        &:nth-of-type(2){
+          padding-left: 10px;
+        }
+        &:nth-of-type(3){
+          padding-left: 10px;
+        }
+      }
+      input{
+        @include inputStyle(60px,28px,1px solid #cccccc);
+        @include border-radius;
+        padding-left: 10px;
+        &:nth-of-type(2){
+          margin-left: 10px;
+        }
+      }
+    }
+    .paramLast{
+      width: 150px;
+      height: 50px;
+      margin: 20px 140px;
+      input{
+        float: left;
+        display: inline-block;
+        outline: none;
+        width: 62px;
+        height: 30px;
+        border: 0;
+        @include border-radius;
+        margin-top: 15px;
+        font-size: 12px;
+        &:nth-of-type(1) {
+          background: #e1e1e1;
+          color: #7d7b7d;
+        }
+        &:nth-of-type(2) {
+          background: #ec6a47;
+          color: #FFFFFF;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+}
